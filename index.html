@@ -1,69 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Module 3 Solution</title>
+    <title>Assignment Solution</title>
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
 
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-md navbar-light bg-light">
-        <div class="container">
-            <a class="navbar-brand" href="#">Food, LLC</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+<!-- Navbar -->
+<nav class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <!-- Mobile Menu Dropdown -->
-                    <li class="nav-item dropdown visible-xs">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Menu
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Chicken</a>
-                            <a class="dropdown-item" href="#">Beef</a>
-                            <a class="dropdown-item" href="#">Sushi</a>
-                        </div>
-                    </li>
-                </ul>
-            </div>
+            <a class="navbar-brand" href="#">Food, LLC</a>
         </div>
-    </nav>
-
-    <!-- Page Heading -->
-    <div class="container text-center mt-4">
-        <h1>Our Menu</h1>
+        <div class="collapse navbar-collapse" id="navbar-collapse">
+            <ul class="nav navbar-nav visible-xs">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Menu <span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="#chicken">Chicken</a></li>
+                        <li><a href="#beef">Beef</a></li>
+                        <li><a href="#sushi">Sushi</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
     </div>
+</nav>
 
-    <!-- Main Section -->
-    <section class="main-section bg-light">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat, molestie ipsum
-                        et, convallis diam. Quisque vel semper odio. Duis sollicitudin justo id purus aliquet, sit amet
-                        feugiat tortor placerat. Integer sit amet efficitur odio, at posuere leo.</p>
-                    <!-- Add more content here as needed -->
-                </div>
+<!-- Page Heading -->
+<div id="menu-heading" class="text-center">
+    <h1>Our Menu</h1>
+</div>
+
+<!-- Section 1: Chicken -->
+<section id="chicken" class="main-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h3>Chicken</h3>
             </div>
         </div>
-    </section>
+        <div class="row">
+            <div class="col-md-12">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat, molestie ipsum
+                    et, convallis diam.</p>
+                <!-- Add more content as needed -->
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <a href="#menu-heading">Back to Top</a>
+            </div>
+        </div>
+    </div>
+</section>
 
-    <!-- Bootstrap JS and dependencies (optional) -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@1.16.1/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<!-- Section 2: Beef -->
+<section id="beef" class="main-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h3>Beef</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat, molestie ipsum
+                    et, convallis diam.</p>
+                <!-- Add more content as needed -->
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <a href="#menu-heading">Back to Top</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Section 3: Sushi -->
+<section id="sushi" class="main-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h3>Sushi</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat, molestie ipsum
+                    et, convallis diam.</p>
+                <!-- Add more content as needed -->
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <a href="#menu-heading">Back to Top</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </body>
-
 </html>
