@@ -3,4 +3,19 @@
     padding: 50px 0; /* Example padding */
 }
 
+/* Navbar Brand */
+.navbar-brand {
+    font-weight: bold; /* Example: Adjust font weight */
+}
+
+/* Mobile Menu Dropdown */
+.dropdown-menu {
+    width: 100%; /* Take up entire width */
+    background-color: #f8f9fa; /* Example background color */
+}
+/* Centered Heading */
+.text-center {
+    margin-top: 20px; /* Example: Adjust margin */
+}
+
 /* Customize further as per your design */
