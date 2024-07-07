@@ -1,11 +1,8 @@
-/* Add your custom CSS styles here */
-.main-section {
-    padding: 50px 0; /* Example padding */
-}
+/* Custom CSS */
 
 /* Navbar Brand */
 .navbar-brand {
-    font-weight: bold; /* Example: Adjust font weight */
+    font-weight: bold;
 }
 
 /* Mobile Menu Dropdown */
@@ -13,9 +10,20 @@
     width: 100%; /* Take up entire width */
     background-color: #f8f9fa; /* Example background color */
 }
-/* Centered Heading */
+
+/* Page Heading */
 .text-center {
-    margin-top: 20px; /* Example: Adjust margin */
+    margin-top: 20px;
 }
 
-/* Customize further as per your design */
+/* Main Section Background */
+.main-section {
+    padding: 50px 0;
+}
+
+/* Back to Top Link */
+.main-section a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
